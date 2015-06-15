@@ -5,7 +5,7 @@
     console.log('number', index, '=', number);
   });
 
-  arr.forEach(function(number) {
-    console.log('number =', number);
+  let dbl = arr.map(function(n) {
+    return n + 2;
   });
 })();
